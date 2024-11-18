@@ -17,9 +17,3 @@ class GoogleFinder():
         except Exception as e:
             logging.exception(str('The exception is in googlefinder.find ' + str(e)))
 
-
-if __name__ == "__main__":
-#
-#
-    gf = GoogleFinder()
-    res = gf.find(message_text="")
